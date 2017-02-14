@@ -1,8 +1,62 @@
-body {
-	color: white;
-	font-family:'Anton', sans-serif;
+* {
+	margin: 0px;
+	padding: 0px;
 }
-a{
-	color:white;
+
+body {
+}
+
+#menubar{
+	width: 100vw;
+
+}
+
+
+#sidemenu{
+	width: 200px;
+	float: left;
+	height: 100vh;
+	display: block;
+	background: grey;
+}
+
+#menubar img{
+	width:100vw;
+}
+
+ul {
+	padding: 20px;
+	list-style-type: none;
+	
+}
+
+li{}
+
+#sidemenu a{
+	color: white;
+	text-decoration: none;
 	font-family:'Anton', sans-serif;
+
+
+}
+
+#sidemenu a:hover{
+	color: black;
+	text-decoration: none;
+
+}
+
+#sidemenu a:active{
+	color: black;
+	text-decoration: none;
+
+}
+
+#image {
+	float:right;
+	width: calc(100vw - 200px);
+}
+
+#image img{
+	width: 100%;
 }
