@@ -1,0 +1,32 @@
+* { margin: 0px; padding: 0px; }
+
+body {
+	text-align: left;
+	font-size: 20px;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	color: white;
+	background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+}
+
+
+#text {
+	width: 600px;
+	height: 225px;
+	position: absolute;
+	text-align: left;
+
+	top: calc(50vh - 225px);
+	left: calc(50vw - 300px);
+}
+
+h1#title {
+	position: fixed;
+	top: 20px;
+	left: 50px;
+	transform: rotate(90deg);
+	transform-origin: top left;
+}
+
+a {
+	text-decoration: none;
+}
