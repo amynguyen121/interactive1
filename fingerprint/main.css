@@ -1,0 +1,23 @@
+
+body {
+	background-color: white;
+	color: gray;
+	font-family:'Anton', sans-serif;
+	font-size: 20px;
+}
+h1#title {
+	position: fixed;
+	top: 20px;
+	left: 50px;
+	transform: rotate(90deg);
+	transform-origin: top left;
+}
+
+#img{
+	width: 600px;
+	height: 450px;
+	position: absolute;
+
+	top: calc(50vh - 225px);
+	left: calc(50vw - 300px);
+}
